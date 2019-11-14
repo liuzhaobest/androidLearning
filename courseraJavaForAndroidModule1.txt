@@ -1,0 +1,40 @@
+Abstraction It emphasizes waht's important and de-emphasizes what's unimportant at a particular level of detail
+
+
+Java supports data abstraction via Abstract Data Types (ADTs) which define
+    a set of data values
+    a set of operations on these values
+    
+At the heart of data abstraction is encapsulation
+    Hides ADT internal representation so apps can only access public operations
+    but not its implementation details
+    
+Classes and interfaces can be grouped into packages
+
+java.lang contains classes fundamental to design of Java  (Integer, String, Thread....)
+java.util contains a collection of common resuable ADTs  (ArrayList, HashMap, Vector...)
+Java.io   contains classes that provide operations of files (File, FileInputStream, FileOutputStream...)
+
+Organizing classes and interfaces into packages makes it easier to manage large software projects with
+many team members by avoiding collisions between classes and interfaces that have the same common name such
+as point, shape, map...
+
+Java generics enable ADTs to be parameters when defining classes, interfaces, and methods
+
+Garbage collection is a memory management mechanism
+Java's garbage collector automatically reclaims and recycles memory that is not is use by a program
+
+Java exception handling separates "normal" app execution from "anomalous" app execution
+
+
+
+Inheritance
+extends
+inheritate public fields and methods
+
+All Java classes inherit from the java.lang.Object super class
+    Defines methods that can be used by all non-primitive types
+    
+Polymorphism
+
+
